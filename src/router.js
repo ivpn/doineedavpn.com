@@ -5,9 +5,9 @@ import { Steps, Outcomes } from '@/pages';
 Vue.use(VueRouter);
 
 const routes = [
-    { path: '*', component: Steps },
     { path: '/', name: 'Home', component: Steps },
-    { path: '/outcomes', name: 'Outcomes', component: Outcomes, exect: true }
+    { path: '/outcomes', name: 'Outcomes', component: Outcomes, exect: true },
+    { path: '/*', redirect: { name: 'Home' } }
 ];
   
 export const router = new VueRouter({
