@@ -4,12 +4,7 @@
 
 <script>
 export default {
-    name: 'App',
-
-    // mounted () {
-    //     // Needed for prerened spa plugin
-    //     document.dispatchEvent(new Event('renderEvent'));
-    // }
+    name: 'App'
 }
 </script>
 
