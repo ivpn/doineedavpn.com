@@ -9,7 +9,7 @@
 <a name="about-repo"></a>
 ## About this Repo
 
-This is the official Git repo of the [doineedavpn.com Website](https://doineedavpn.com).
+This is the official Git repo of the [doineedavpn.com](https://doineedavpn.com) website.
 
 <a name="installation"></a>
 ## Project setup
