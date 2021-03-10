@@ -1,0 +1,52 @@
+{
+    "explanations": [
+        {
+            "id": "TUNNEL/SECURITY",
+            "description": "A VPN solves your issue by encrypting data between your device and the VPN server. This protects you from the monitoring of your online activity by entities you might not trust - such as your ISP or public WiFi operators. It also protects your connection from various attacks performed by hackers on Wi-Fi networks."
+        },
+        {
+            "id": "NOT SUFFICIENT, OTHER WAYS TO ID",
+            "description": "A VPN could be useful, but not sufficient for solving this problem. A VPN masks your private IP address, but does not give you anonymity. Governments and corporations can track you online with the help of tracking pixels, web cookies or device fingerprinting, among other tools. Consider using <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> for achieving anonymity."
+        },
+        {
+            "id": "SERVICE PROVIDER SPECIFIC",
+            "description": "A VPN does not solve this problem. Social media sites, apps and websites collect information on your actions when using their services. These companies share or sell this data to data brokers, or it might be compromised through a hack or a leak. A VPN may protect you from tracking at the IP address level but IP addresses are not a primary method used to track people nowadays. Your best course of action is to delete your accounts and stop using these services. We suggest using tracker blockers as a next step to prevent further profiling."
+        },
+        {
+            "id": "NOT SUFFICIENT, OTHER WAYS TO HACK",
+            "description": "A VPN is unlikely to solve this problem. Most websites implement encryption using HTTPS, where VPNs provide no additional security. A VPN does nothing to protect the passwords or other sensitive data stored on your computer. Consider installing the browser extension <a href=\"https://www.eff.org/https-everywhere\" target=\"blank\">HTTPS everywhere</a> from the EFF, using a password manager and reading up on how to defend against identity theft."
+        },
+        {
+            "id": "UNBLOCKING, CIRCUMVENTION",
+            "description": "Connecting to a VPN service can unblock apps, censored websites, games and content unavailable in your country. Keep in mind that not every commercial VPN promises to work with unblocking geo-locked content from entertainment services like Netflix and BBC iPlayer. We recommend asking the providers first."
+        },
+        {
+            "id": "IP MASKING",
+            "description": "A VPN solves this problem by masking your private IP address. Only the IP address of the VPN server will be visible to other peers in a torrent swarm."
+        },
+        {
+            "id": "MOBILE LOCATION",
+            "description": "VPNs do not effectively solve this issue. Most modern browsers can detect the geographic location of a device based on data from GPS, available Wi-Fi networks and GSM/CDMA cell IDs and will submit this information to websites requesting it."
+        },
+        {
+            "id": "FINANCIAL",
+            "description": "VPNs cannot solve this issue. Your credit card transactions and bank statements are visible to many parties. Even most cryptocurrencies, including Bitcoin, have a public ledger where your transactions can be traced back to you. Encrypting your connection and masking your IP address will not stop this."
+        },
+        {
+            "id": "HOME SECURITY",
+            "description": "We don’t recommend using a VPN to solve this issue. Today the vast majority of apps and websites use encryption (HTTPS) by default so the chance of an adversary being able to eavesdrop on your activities when you are connected at home is very low. In addition VPNs are unlikely to protect you from data theft and social engineering attacks."
+        },
+        {
+            "id": "THROTTLING",
+            "description": "Using a VPN might help with this issue. ISPs limit bandwidth by monitoring connections to a list of websites, ports or services and throttling connections to them. VPNs encrypt your connection, so your ISP cannot monitor your network traffic and apply these rules. However they can see that you are connecting to a VPN service and may choose to throttle all traffic from your connection as a result."
+        },
+        {
+            "id": "SPEED UP GAMING",
+            "description": "VPNs might be useful for this need. Re-routing your connection through a VPN server may cause reduced latency and higher speeds when connecting to a gaming service. This depends on the specific route from your device to the VPN server and game server."
+        },
+        {
+            "id": "DDOS",
+            "description": "A VPN may this problem by masking your private IP address and implementing strong DDOS protection measures. DDOS attackers will be forced to attack the VPN server that you are connected to and won’t be able to target your machine directly (unless you have port forwarding enabled). However some VPN providers do not implement DDOS protections and for those that do there is no guarantee they will do better than your own ISP."
+        }
+    ]
+}

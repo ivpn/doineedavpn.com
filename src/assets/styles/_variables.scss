@@ -1,0 +1,20 @@
+// Colors
+$white-color: #FFFFFF;
+$blue-color: #0D7CFF;
+$red-color: #E93C3C;
+$yellow-color: #E0C11B;
+$green-color: #85BB40;
+$background-color: #20242E;
+$gray-color: #525457;
+$border-radius: 8px;
+$tag-background: rgba(255, 255, 255, 0.1);
+$list-marker-color: #A4A6AB; // Equals to white + opacity 0.6, due to limitations of using opacity on markers
+
+// Media query breakpoints
+$desktop: 1680px;
+$laptop: 1440px;
+$tablet: 1024px;
+$tablet-landscape: 1366px;
+$tablet-portrait: 768px;
+$mobile-landscape: 812px;
+$mobile-portrait: 575px;

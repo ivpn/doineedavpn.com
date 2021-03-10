@@ -1,0 +1,30 @@
+{
+    "question": {
+        "title": "Are you a journalist, oppressed minority or someone who could be <br> personally targeted by state actors?",
+        "options": [
+            {
+                "title": "Yes",
+                "value": "yes",
+                "proceed": {
+                    "step": "answer",
+                    "payload": {
+                        "topline": {
+                            "title": "A VPN may be useful as part of your privacy and security toolkit,",
+                            "subtitle": "but you need more. Start at <a href=\"https://freedom.press/training/\" target=\"_blank\">Freedom.press</a>, go through <a href=\"https://ssd.eff.org\" target=\"_blank\">EFF’s Surveillance Self Defense</a> collection and visit <a href=\"https://www.privacytools.io\" target=\"_blank\">privacytools.io</a> to learn about threats and solutions."
+                        },
+                        "recommendation": {
+                            "id": "tor-plus-reco"
+                        }
+                    }
+                }
+            },
+            {
+                "title": "No",
+                "value": "no",
+                "proceed": {
+                    "step": "selection"
+                }
+            }
+        ]
+    }
+}

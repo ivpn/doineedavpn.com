@@ -1,0 +1,174 @@
+{
+    "sections": [
+        {
+            "title": "Privacy problems",
+            "issues": [
+                {
+                    "id": 1,
+                    "alt": "Prevent your ISP from monitoring and/or recording your activity",
+                    "title": "Prevent ISP logging",
+                    "outcome": "yes",
+                    "explanation": "TUNNEL/SECURITY"
+                },
+                {
+                    "id": 2,
+                    "alt": "Protect against government snooping",
+                    "title": "Stop government tracking",
+                    "outcome": "maybe",
+                    "explanation": "NOT SUFFICIENT, OTHER WAYS TO ID"
+                },
+                {
+                    "id": 3,
+                    "alt": "Prevent websites from profiling you",
+                    "title": "Stop website profiling",
+                    "outcome": "maybe",
+                    "explanation": "NOT SUFFICIENT, OTHER WAYS TO ID"
+                },
+                {
+                    "id": 4,
+                    "alt": "Stop social media companies (Google, Facebook etc.) profiling you",
+                    "title": "Stop social media profiling",
+                    "outcome": "no",
+                    "explanation": "SERVICE PROVIDER SPECIFIC"
+                },
+                {
+                    "id": 5,
+                    "alt": "Hide your geographic location",
+                    "title": "Hide geographic location",
+                    "outcome": "no",
+                    "explanation": "MOBILE LOCATION"
+                },
+                {
+                    "id": 6,
+                    "alt": "Hide financial transactions",
+                    "title": "Hide financial transactions",
+                    "outcome": "no",
+                    "explanation": "FINANCIAL"
+                },
+                {
+                    "id": 7,
+                    "alt": "Hide your IP address when peer-to-peer downloading",
+                    "title": "Hide IP for P2P",
+                    "outcome": "yes",
+                    "explanation": "IP MASKING"
+                },
+                {
+                    "id": 8,
+                    "alt": "Achieve anonymity online",
+                    "title": "Anonymity online",
+                    "outcome": "maybe",
+                    "explanation":"NOT SUFFICIENT, OTHER WAYS TO ID"
+                }
+            ]
+        },
+
+        {
+            "title": "Online security issues",
+            "issues": [
+                {
+                    "id": 9,
+                    "alt": "Protect your data from hackers on WiFi you don't trust (airport, hotel, café, library)",
+                    "title": "Untrusted WiFi protection",
+                    "outcome": "yes",
+                    "explanation": "TUNNEL/SECURITY"
+                },
+                {
+                    "id": 10,
+                    "alt": "Protect your data from hackers when connected at home",
+                    "title": "Stop hacking at home",
+                    "outcome": "no",
+                    "explanation": "HOME SECURITY"
+                },
+                {
+                    "id": 11,
+                    "alt": "Protect your passwords",
+                    "title": "Protect passwords",
+                    "outcome": "maybe",
+                    "explanation": "NOT SUFFICIENT, OTHER WAYS TO HACK"
+                },
+                {
+                    "id": 12,
+                    "alt": "Protect from identity theft",
+                    "title": "Stop identity theft",
+                    "outcome": "maybe",
+                    "explanation": "NOT SUFFICIENT, OTHER WAYS TO HACK"
+                },
+                {
+                    "id": 13,
+                    "alt": "Protect from data leaks from services you use",
+                    "title": "Prevent service data leaks",
+                    "outcome": "no",
+                    "explanation": "SERVICE PROVIDER SPECIFIC"
+                },
+                {
+                    "id": 14,
+                    "alt": "Protect devices at home from information leaking, data theft and hacking",
+                    "title": "Stop IoT hacking",
+                    "outcome": "no",
+                    "explanation": "HOME SECURITY"
+                }
+            ]
+        },
+
+        {
+            "title": "Circumventing blocks and censorship",
+            "issues": [
+                {
+                    "id": 15,
+                    "alt": "Access websites blocked in your country, workplace, school, etc",
+                    "title": "Access blocked websites",
+                    "outcome": "yes",
+                    "explanation": "UNBLOCKING, CIRCUMVENTION"
+                },
+                {
+                    "id": 16,
+                    "alt": "Watch Netflix/Disney+/Hulu etc. shows available in another country",
+                    "title": "Watch shows available in US",
+                    "outcome": "yes",
+                    "explanation": "UNBLOCKING, CIRCUMVENTION"
+                },
+                {
+                    "id": 17,
+                    "alt": "Access entertainment or games not available in your country, workplace, school, etc.",
+                    "title": "Access blocked entertainment",
+                    "outcome": "yes",
+                    "explanation": "UNBLOCKING, CIRCUMVENTION"
+                },
+                {
+                    "id": 18,
+                    "alt": "Accessing entertainment or games available in your home country when travelling",
+                    "title": "Watch shows when travelling",
+                    "outcome": "yes",
+                    "explanation": "UNBLOCKING, CIRCUMVENTION"
+                },
+                {
+                    "id": 19,
+                    "alt": "Prevent your ISP from throttling your connection",
+                    "title": "Prevent ISP throttling",
+                    "outcome": "maybe",
+                    "explanation": "THROTTLING"
+                }
+            ]
+        },
+
+        {
+            "title": "Gaming",
+            "issues": [
+                {
+                    "id": 20,
+                    "alt": "Speed up your connection for casual gaming",
+                    "title": "Better speed for gaming ",
+                    "outcome": "maybe",
+                    "explanation": "SPEED UP GAMING"
+                },
+                {
+                    "id": 21,
+                    "alt": "Protect you from DDOS attacks",
+                    "title": "Protect you from DDOS'ing",
+                    "outcome": "maybe",
+                    "explanation": "DDOS"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+.table {
+    color: $white-color;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100%;
+    min-width: 500px;
+}
+
+.table-container {
+    display: block;
+    overflow-x: auto;
+}
+
+.table th {
+    height: 40px;
+    vertical-align: middle;
+    text-align: left;
+    background-color: $gray-color;
+    border: 1px solid $gray-color;
+    padding-left: 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.table tr > td {
+    min-height: 32px;
+    padding: 8px;
+    vertical-align: top;
+    padding-top: 10px;
+    border: 1px solid $gray-color;
+}
+
+.table-col-1 {width: 8.33%;}
+.table-col-2 {width: 16.66%;}
+.table-col-3 {width: 25%;}
+.table-col-4 {width: 33.33%;}
+.table-col-5 {width: 41.66%;}
+.table-col-6 {width: 50%;}
+.table-col-7 {width: 58.33%;}
+.table-col-8 {width: 66.66%;}
+.table-col-9 {width: 75%;}
+.table-col-10 {width: 83.33%;}
+.table-col-11 {width: 91.66%;}
+.table-col-12 {width: 100%;}

@@ -1,0 +1,128 @@
+{
+    "recommendations": [
+        {
+            "id": "basic",
+            "title": "",
+            "recommended": {
+                "title": "To pick a VPN provider, we recommend the following independent sources to make your choice: ",
+                "sources": [
+                    {
+                        "title": "That One Privacy Site",
+                        "link": "https://thatoneprivacysite.net/"
+                    },
+                    {
+                        "title": "PrivacyTools.io",
+                        "link": "https://www.privacytools.io/providers/vpn"
+                    },
+                    {
+                        "title": "Wirecutter",
+                        "link": "https://www.nytimes.com/wirecutter/reviews/best-vpn-service/"
+                    }
+                ]
+            },
+            "tips": {
+                "title": "Some things to keep in mind:",
+                "list": [
+                    { "title": "If you use a VPN, your internet traffic goes through the provider’s network. Whoever is in control of the servers can see and log anything you do online, if they choose to." },
+                    { "title": "Don't use free VPNs: your browsing data is the product that is being sold." },
+                    { "title": "Most 'Best VPN' lists and websites are compiled to maximize affiliate revenue, not to find the best service (with rare exceptions)." }
+                ]
+            }
+        },
+
+        {
+            "id": "own-plus-reco",
+            "title": "Based on your choice, <a href=\"https://www.pivpn.io/#install\" target=\"_blank\">running your own VPN server</a> might be a better solution if you don’t want to trust a commercial VPN service with your data.",
+            "recommended": {
+                "title": "If you still plan to pick a VPN provider, we recommend the following independent sources to make your choice:",
+                "sources": [
+                    {
+                        "title": "That One Privacy Site",
+                        "link": "https://thatoneprivacysite.net/"
+                    },
+                    {
+                        "title": "PrivacyTools.io",
+                        "link": "https://www.privacytools.io/providers/vpn"
+                    },
+                    {
+                        "title": "Wirecutter",
+                        "link": "https://www.nytimes.com/wirecutter/reviews/best-vpn-service/"
+                    }
+                ]
+            },
+            "tips": {
+                "title": "Some things to keep in mind:",
+                "list": [
+                    { "title": "If you use a VPN, your internet traffic goes through the provider’s network. Whoever is in control of the servers can see and log anything you do online, if they choose to." },
+                    { "title": "Don't use free VPNs: your browsing data is the product that is being sold." },
+                    { "title": "Most 'Best VPN' lists and websites are compiled to maximize affiliate revenue, not to find the best service (with rare exceptions)." }
+                ]
+            }
+        },
+
+        {
+            "id": "tor-plus-reco",
+            "title": "Based on your choice, using <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> might be a better choice for you than a commercial VPN service.",
+            "recommended": {
+                "title": "If you still plan to pick a VPN provider, we recommend the following independent sources to make your choice:",
+                "sources": [
+                    {
+                        "title": "That One Privacy Site",
+                        "link": "https://thatoneprivacysite.net/"
+                    },
+                    {
+                        "title": "PrivacyTools.io",
+                        "link": "https://www.privacytools.io/providers/vpn"
+                    },
+                    {
+                        "title": "Wirecutter",
+                        "link": "https://www.nytimes.com/wirecutter/reviews/best-vpn-service/"
+                    }
+                ]
+            },
+            "tips": {
+                "title": "Some things to keep in mind:",
+                "list": [
+                    { "title": "If you use a VPN, your internet traffic goes through the provider’s network. Whoever is in control of the servers can see and log anything you do online, if they choose to." },
+                    { "title": "Don't use free VPNs: your browsing data is the product that is being sold." },
+                    { "title": "Most 'Best VPN' lists and websites are compiled to maximize affiliate revenue, not to find the best service (with rare exceptions)." }
+                ]
+            }
+        },
+
+        {
+            "id": "dont-use",
+            "title": "Based on your choices, using a VPN service is not suitable for your needs. We recommend ignoring the advice of VPN providers who might tell you otherwise.",
+            "recommended": {
+                "title": "Recommended reading:",
+                "sources": [
+                    {
+                        "title": "Your VPN is a serious choice",
+                        "link": "https://drewdevault.com/2019/04/19/Your-VPN-is-a-serious-choice.html"
+                    },
+                    {
+                        "title": "Very Precarious Narrative",
+                        "link": " https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html"
+                    },
+                    {
+                        "title": "Why you don't need a VPN",
+                        "link": "https://www.ivpn.net/blog/why-you-dont-need-a-vpn/"
+                    }
+                ]
+            },
+            "tips": {
+                "title": "Further tips on improving your privacy online:",
+                "list": [
+                    {
+                        "title": "Surveillance Self Defense by EFF",
+                        "link": "https://ssd.eff.org/"
+                    },
+                    {
+                        "title": "Privacy Tools",
+                        "link": "https://www.privacytools.io/"
+                    }
+                ]
+            }
+        }
+    ]
+}

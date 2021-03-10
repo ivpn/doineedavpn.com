@@ -1,0 +1,24 @@
+.list {
+    padding: 0;
+}
+
+.list__item {
+    margin-bottom: 15px;
+}
+
+.list--numeric {
+    list-style-type: decimal;
+    list-style-position: inside;
+
+    & > li::marker {
+        color: $list-marker-color
+    }
+}
+
+.list--disc {
+    list-style-type: disc;
+}
+
+.list--alphabetical {
+    list-style-type: lower-alpha
+}

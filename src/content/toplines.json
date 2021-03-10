@@ -1,0 +1,38 @@
+{
+    "toplines": {
+        "if": {
+            "contains": "yes",
+            "result": {
+                "title": "Yes, you need a VPN",
+                "subtitle": "Based on your selections, it’s a suitable solution for your needs."
+            },
+            "and": {
+                "contains": ["no", "maybe"],
+                "result": {
+                    "title": "Yes, you need a VPN",
+                    "subtitle": "but they do not solve some issues you want to address. Review the explanations below."
+                }
+            }
+        },
+        "elseif": {
+            "contains": "maybe",
+            "result": {
+                "title": "You might benefit from using a VPN",
+                "subtitle": "They help mitigate issues, but they are not complete solutions for your needs."
+            },
+            "and": {
+                "contains": ["no"],
+                "result": {
+                    "title": "You might benefit from using a VPN",
+                    "subtitle": "While they mitigate some issues, they are not fit for some of your selections."
+                }
+            }
+        },
+        "else": {
+            "result": {
+                "title": "You don't need a VPN",
+                "subtitle": "Your choices show VPNs won't help to solve your needs."
+            }
+        }
+    }
+}
