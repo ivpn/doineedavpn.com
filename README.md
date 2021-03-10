@@ -1,6 +1,7 @@
 # doineedavpn.com Web
 
 * [About this Repo](#about-repo)
+* [Project setup](#installation)
 * [Contributing](#contributing)
 * [Security Policy](#security)
 * [License](#license)
@@ -9,6 +10,35 @@
 ## About this Repo
 
 This is the official Git repo of the [doineedavpn.com Website](https://doineedavpn.com).
+
+<a name="installation"></a>
+## Project setup
+
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+
+```
+yarn build
+```
+
+### Lints and fixes files
+
+```
+yarn lint
+```
+
+### Customize configuration
+
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
 <a name="contributing"></a>
 ## Contributing
