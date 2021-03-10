@@ -5,6 +5,7 @@
 * [Contributing](#contributing)
 * [Security Policy](#security)
 * [License](#license)
+* [Authors](#Authors)
 
 <a name="about-repo"></a>
 ## About this Repo
@@ -54,3 +55,8 @@ If you want to report a security problem, please read our [Security Policy](/.gi
 ## License
 
 This project is licensed under the GPLv3 - see the [License](/LICENSE.md) file for details.
+
+<a name="authors"></a>
+## Authors
+
+See the [Authors](/AUTHORS) file for the list of contributors who participated in this project.
