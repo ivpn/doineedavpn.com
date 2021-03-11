@@ -11,7 +11,6 @@
     "clipboard-copy": "^4.0.1",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
-    "vue-matomo": "^3.14.0-0",
     "vue-router": "^3.5.1",
     "vuex": "^3.6.2"
   },
@@ -22,7 +21,6 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "prerender-spa-plugin": "^3.4.0",
     "sass": "^1.32.7",
     "sass-loader": "10.1.1",
     "vue-template-compiler": "^2.6.11"
