@@ -289,47 +289,6 @@ $sidebar-gradient: linear-gradient(0deg, rgba(32, 36, 46, 0) 0%, #20242E 25%);
     z-index: 2;
 }
 
-.sidebar-header {
-    @media screen and (max-width: $tablet) {
-        padding: 45px 30px 0;
-    }
-
-    @media screen and (max-width: $mobile-portrait) {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-}
-
-.sidebar__step-indicator {
-    color: $white-color;
-    opacity: 0.8;
-    font-size: 48px;
-    margin-left: 95px;
-    margin-top: 53px;
-    font-family: sans-serif;
-    font-weight: lighter;
-    letter-spacing: 4px;
-
-    @media screen and (max-width: $laptop) {
-        margin-left: 45px;
-    }
-
-    @media screen and (max-width: $tablet-landscape) {
-        margin-left: 25px;
-    }
-
-    @media screen and (max-width: $tablet) {
-        margin: 0;
-        opacity: 0.6;
-        font-size: 24px;
-    }
-
-    @media screen and (max-width: $tablet-portrait) {
-        font-size: 16px;
-    }
-}
-
 .mobile-menu__button {
     display: none;
     z-index: 99;
