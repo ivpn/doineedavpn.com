@@ -7,14 +7,14 @@ export const actions = {
     [ACTION_TYPES.ANSWER_QUESTION]({ state, commit }, result) {
         const payload = result.proceed.payload;
     
-        if (payload) {
-            const recommendation = state.recommendations.find(item => item.id === payload.recommendation.id);
-
-            commit(MUTATIONS_TYPES.SET_TOPLINE, payload.topline);
-            commit(MUTATIONS_TYPES.SET_RECOMMENDATION, recommendation);
-        }
-
         commit(MUTATIONS_TYPES.SET_STEP, result.proceed.step);
+
+        if (!payload) return;
+
+        const recommendation = state.recommendations.find(item => item.id === payload.recommendation.id);
+
+        commit(MUTATIONS_TYPES.SET_TOPLINE, payload.topline);
+        commit(MUTATIONS_TYPES.SET_RECOMMENDATION, recommendation);
     },
 
     [ACTION_TYPES.RESET_STEP]({ commit }) {
