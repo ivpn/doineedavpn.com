@@ -6,7 +6,7 @@ export const mutations = {
             step.isActive = step.name === name;
 
             return step;
-        })
+        });
     },
 
     [MUTATIONS_TYPES.SET_SHARE_POPUP_STATE](state, isOpened) {
