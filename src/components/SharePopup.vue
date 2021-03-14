@@ -36,8 +36,6 @@
 import clipboardCopy from 'clipboard-copy';
 import { ACTION_TYPES } from '@/store';
 
-// Website has only 1 popup,
-// so there's no necessity of making base component or installing third party libs
 export default {
     name: 'SharePopup',
 
