@@ -21,6 +21,8 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 // HTML5 display-role reset for older browsers
 article, aside, details, figcaption, figure,
@@ -49,24 +51,4 @@ table {
 a {
   color: inherit;
   cursor: pointer;
-}
-
-.hidden { display: none; }
-
-.full-height { height: 100%; }
-.body-height {
-  height: auto;
-  min-height: 100%;
-}
-
-.display-inline { display: inline; }
-
-// Bottom offsets
-.offset-bottom-sm { margin-bottom: 8px; }
-.offset-bottom-md { margin-bottom: 20px; }
-.offset-bottom-lg { margin-bottom: 30px; }
-
-// Left offsets
-.offset-left-md {
-  margin-left: 20px;
 }

@@ -1,0 +1,24 @@
+.screen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hidden { display: none; }
+
+.full-height { height: 100%; }
+
+.body-height {
+  height: auto;
+  min-height: 100%;
+}
+
+.display-inline { display: inline; }
+
+// Bottom
+.offset-bottom-sm { margin-bottom: 8px; }
+.offset-bottom-md { margin-bottom: 20px; }
+.offset-bottom-lg { margin-bottom: 30px; }
+
+// Left
+.offset-left-md { margin-left: 20px; }
