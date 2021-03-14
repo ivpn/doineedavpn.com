@@ -8,7 +8,7 @@
         <div class="explanation-container" v-if="hasSelectedIssues">
             <p class="section-title">You selected</p>
             <Explanation 
-                v-for="explanation of groupedExplanation" 
+                v-for="explanation of groupedExplanations" 
                 :key="explanation.description" 
                 :text="explanation.description" 
                 :issues="explanation.issues"
@@ -29,38 +29,14 @@ import StepFooter from '../../StepFooter';
 import Recommendation from './Recommendation';
 import Explanation from './Explanation';
 
-const SORTING_ORDER = ['yes', 'maybe', 'no'];
-
 export default {
     name: 'AnswerStep',
 
     components: { StepFooter, Recommendation, Explanation },
 
     computed: {
-        ...mapState(['explanations', 'result']),
-        ...mapGetters(['selectedIssues', 'hasSelectedIssues', 'recommendation']),
-
-        groupedExplanation() {
-            const groupedIssues = {};
-            const explanations = Array.from(new Set(this.selectedIssues.map(issue => issue.explanation)));
-            
-            explanations.forEach(explanation => groupedIssues[explanation] = { issues: [], description: '' });
-            this.selectedIssues.forEach(issue => {
-                Object.keys(groupedIssues).forEach(group => {
-                    if (group === issue.explanation) {
-                        const explanation = this.explanations.find(item => item.id === group);
-
-                        groupedIssues[group].issues.push(issue);
-                        groupedIssues[group].outcomeType = issue.outcome;
-                        groupedIssues[group].description = explanation.description;
-                    }
-                });
-            });
-        
-            return Object.values(groupedIssues).sort((a, b) => {
-                return SORTING_ORDER.indexOf(a.outcomeType) - SORTING_ORDER.indexOf(b.outcomeType);
-            });
-        }
+        ...mapState(['result']),
+        ...mapGetters(['selectedIssues', 'hasSelectedIssues', 'recommendation', 'groupedExplanations'])
     }
 }
 </script>
