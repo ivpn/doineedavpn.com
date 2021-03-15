@@ -17,7 +17,7 @@
                 <router-link to="outcomes">Review the decision tree</router-link>
             </li>
             <li class="footer-nav__item">
-                <a href="">Suggest an edit or improvement on GitHub</a>
+                <a href="https://github.com/ivpn/doineedavpn.com/issues" target="_blank">Suggest an edit or improvement on GitHub</a>
             </li>
         </ul>
     </footer>
