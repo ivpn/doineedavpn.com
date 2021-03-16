@@ -11,7 +11,7 @@
                 {{ option.title }}
             </button>
         </div>
-        <StepFooter :has-button="false" :is-static="true" />
+        <StepFooter is-static />
     </div>
 </template>
 

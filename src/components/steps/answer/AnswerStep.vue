@@ -19,7 +19,7 @@
             <p class="section-title">Which VPN service should you use?</p>
             <Recommendation :recommendation="recommendation" />
         </div>
-        <StepFooter :is-static="false" :has-button="false" :is-static-mobile="true" />
+        <StepFooter is-static-mobile />
     </div>
 </template>
 

@@ -45,9 +45,11 @@ $footer-gradient: linear-gradient(180deg, rgba(32, 36, 46, 0) 0%, $footer-bg 25%
     display: flex;
     justify-content: center;
     justify-content: row;
+}
 
+.footer-nav:not(.footer-nav--mobile) {
     @media screen and (max-width: $mobile-portrait) {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -68,7 +70,7 @@ $footer-gradient: linear-gradient(180deg, rgba(32, 36, 46, 0) 0%, $footer-bg 25%
 
         .footer-nav {
             width: 100%;
-            display: block !important;
+            display: block;
         }
 
         .footer-nav__item a {
@@ -94,6 +96,7 @@ $footer-gradient: linear-gradient(180deg, rgba(32, 36, 46, 0) 0%, $footer-bg 25%
     margin: 35px 0;
 
     @media screen and (max-width: $tablet) {
-        margin: 16px 0;
+        display: block;
+        margin: 16px auto;
     }
 }

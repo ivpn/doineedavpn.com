@@ -9,7 +9,7 @@
             Find out if you need a VPN
             <span class="footer_tooltip" :class="isTooltipVisible ? '' : 'hidden'">Select at least one issue to proceed</span>
         </button>
-        <ul class="footer-nav">
+        <ul class="footer-nav" :class="navClasses">
             <li class="footer-nav__item">
                 <a role="button" href="#" @click="onShare">Share DoIneedAVPN.com</a>
             </li>
@@ -37,6 +37,12 @@ export default {
         },
 
         hasButton: {
+            type: Boolean,
+            required: false,
+            default: false
+        },
+
+        hasMobileNav: {
             type: Boolean,
             required: false,
             default: true
@@ -71,6 +77,12 @@ export default {
                 'footer--gradient': this.hasGradient,
                 'footer--static': this.isStatic,
                 'footer--static-mobile': this.isStaticMobile
+            };
+        },
+
+        navClasses() {
+            return {
+                'footer-nav--mobile': this.hasMobileNav
             };
         }
     },
