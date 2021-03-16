@@ -46,7 +46,7 @@
         },
         {
             "id": "DDOS",
-            "description": "A VPN may this problem by masking your private IP address and implementing strong DDOS protection measures. DDOS attackers will be forced to attack the VPN server that you are connected to and won’t be able to target your machine directly (unless you have port forwarding enabled). However some VPN providers do not implement DDOS protections and for those that do there is no guarantee they will do better than your own ISP."
+            "description": "A VPN may solve this problem by masking your private IP address and implementing strong DDOS protection measures. DDOS attackers will be forced to attack the VPN server that you are connected to and won’t be able to target your machine directly (unless you have port forwarding enabled). However some VPN providers do not implement DDOS protections and for those that do there is no guarantee they will do better than your own ISP."
         }
     ]
 }
