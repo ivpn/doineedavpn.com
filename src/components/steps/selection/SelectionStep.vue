@@ -7,7 +7,12 @@
             :title="section.title"
             :issues="section.issues"
         />
-        <StepFooter :has-button="true" :is-static="false" :is-disabled="!hasSelectedIssues" />
+        <StepFooter 
+            has-button 
+            is-static-mobile 
+            :has-mobile-nav="false" 
+            :is-disabled="!hasSelectedIssues" 
+        />
     </div>
 </template>
 
