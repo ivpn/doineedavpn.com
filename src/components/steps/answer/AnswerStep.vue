@@ -64,7 +64,7 @@ export default {
     }
 
     @media screen and (max-width: $mobile-portrait) {
-        padding: 271px 0 120px;
+        padding: 230px 0 120px;
     }
 }
 
