@@ -7,16 +7,16 @@
                 "title": "To pick a VPN provider, we recommend the following independent sources to make your choice: ",
                 "sources": [
                     {
-                        "title": "That One Privacy Site",
-                        "link": "https://thatoneprivacysite.net/"
-                    },
-                    {
                         "title": "PrivacyTools.io",
                         "link": "https://www.privacytools.io/providers/vpn"
                     },
                     {
                         "title": "Techlore",
                         "link": "https://techlore.tech/vpnchart.html"
+                    },
+                    {
+                        "title": "Freedom of Press Foundation",
+                        "link": "https://freedom.press/training/choosing-a-vpn/"
                     }
                 ]
             },
@@ -37,16 +37,16 @@
                 "title": "If you still plan to pick a VPN provider, we recommend the following independent sources to make your choice:",
                 "sources": [
                     {
-                        "title": "That One Privacy Site",
-                        "link": "https://thatoneprivacysite.net/"
-                    },
-                    {
                         "title": "PrivacyTools.io",
                         "link": "https://www.privacytools.io/providers/vpn"
                     },
                     {
                         "title": "Techlore",
                         "link": "https://techlore.tech/vpnchart.html"
+                    },
+                    {
+                        "title": "Freedom of Press Foundation",
+                        "link": "https://freedom.press/training/choosing-a-vpn/"
                     }
                 ]
             },
@@ -67,16 +67,16 @@
                 "title": "If you still plan to pick a VPN provider, we recommend the following independent sources to make your choice:",
                 "sources": [
                     {
-                        "title": "That One Privacy Site",
-                        "link": "https://thatoneprivacysite.net/"
-                    },
-                    {
                         "title": "PrivacyTools.io",
                         "link": "https://www.privacytools.io/providers/vpn"
                     },
                     {
                         "title": "Techlore",
                         "link": "https://techlore.tech/vpnchart.html"
+                    },
+                    {
+                        "title": "Freedom of Press Foundation",
+                        "link": "https://freedom.press/training/choosing-a-vpn/"
                     }
                 ]
             },
