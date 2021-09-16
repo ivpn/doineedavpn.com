@@ -51,7 +51,7 @@
                             </td>
                             <td class="table-col-8">
                                 <p class="text-sm">
-                                    A VPN may be useful as part of your privacy and security toolkit, but you need more. Start at <a href="https://freedom.press/training/" target="_blank">Freedom.press</a>, go through <a href="https://ssd.eff.org" target="_blank">EFF’s Surveillance Self Defense</a> collection and visit <a href="https://www.privacytools.io" target="_blank">privacytools.io</a> to learn about threats and solutions.
+                                    A VPN may be useful as part of your privacy and security toolkit, but you need more. Start at <a href="https://freedom.press/training/" target="_blank">Freedom.press</a>, go through <a href="https://ssd.eff.org" target="_blank">EFF’s Surveillance Self Defense</a> collection and visit <a href="https://www.privacyguides.org" target="_blank">privacyguides.org</a> to learn about threats and solutions.
                                 </p>
                             </td>
                         </tr>
@@ -98,7 +98,7 @@
                     </tbody>
                 </table>
             </div>
-            
+
             <p class="section-title">Selection explanations</p>
             <div class="table-container">
                 <table class="table offset-bottom-lg">
