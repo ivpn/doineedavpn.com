@@ -7,8 +7,8 @@
                 "title": "To pick a VPN provider, we recommend the following independent sources to make your choice: ",
                 "sources": [
                     {
-                        "title": "PrivacyTools.io",
-                        "link": "https://www.privacytools.io/providers/vpn"
+                        "title": "Privacy Guides",
+                        "link": "https://www.privacyguides.org/providers/vpn/"
                     },
                     {
                         "title": "Techlore",
@@ -37,8 +37,8 @@
                 "title": "If you still plan to pick a VPN provider, we recommend the following independent sources to make your choice:",
                 "sources": [
                     {
-                        "title": "PrivacyTools.io",
-                        "link": "https://www.privacytools.io/providers/vpn"
+                        "title": "Privacy Guides",
+                        "link": "https://www.privacyguides.org/providers/vpn/"
                     },
                     {
                         "title": "Techlore",
@@ -67,8 +67,8 @@
                 "title": "If you still plan to pick a VPN provider, we recommend the following independent sources to make your choice:",
                 "sources": [
                     {
-                        "title": "PrivacyTools.io",
-                        "link": "https://www.privacytools.io/providers/vpn"
+                        "title": "Privacy Guides",
+                        "link": "https://www.privacyguides.org/providers/vpn/"
                     },
                     {
                         "title": "Techlore",
@@ -118,8 +118,8 @@
                         "link": "https://ssd.eff.org/"
                     },
                     {
-                        "title": "Privacy Tools",
-                        "link": "https://www.privacytools.io/"
+                        "title": "Privacy Guides",
+                        "link": "https://www.privacyguides.org/"
                     }
                 ]
             }
