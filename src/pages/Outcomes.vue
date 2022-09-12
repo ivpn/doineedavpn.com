@@ -334,7 +334,7 @@ import { recommendations } from '@/content/recommendations.json';
 const BODY_CLASS = 'body-height';
 
 export default {
-    name: 'Outcomes',
+    name: 'OutcomesComponent',
 
     components: { Recommendation },
 
@@ -356,7 +356,7 @@ export default {
         document.body.classList.add(BODY_CLASS);
     },
 
-    beforeDestroy() {
+    beforeUnmount() {
         document.body.classList.remove(BODY_CLASS);
     }
 }
