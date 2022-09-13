@@ -1,18 +1,15 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
+import { createWebHistory, createRouter } from "vue-router";
 import { Steps, Outcomes } from '@/pages';
-
-Vue.use(VueRouter);
 
 const routes = [
     { path: '/', name: 'Home', component: Steps },
     { path: '/outcomes', name: 'Outcomes', component: Outcomes, exect: true },
     { path: '/*', redirect: { name: 'Home' } }
 ];
-  
-export const router = new VueRouter({
+
+const router = createRouter({
+    history: createWebHistory(),
     routes,
-    mode: 'history'
 });
 
 router.beforeEach((to, _, next) => {
@@ -27,6 +24,7 @@ router.beforeEach((to, _, next) => {
 
 router.afterEach(() => {
     const _paq = window._paq = window._paq || [];
-
     _paq.push(['enableLinkTracking']);
 });
+
+export default router;

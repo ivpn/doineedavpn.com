@@ -112,7 +112,7 @@ export default {
         window.addEventListener('click', this.listenOutClick);
     },
 
-    beforeDestroy() {
+    beforeUnmount() {
         window.removeEventListener('click', this.listenOutClick);
     }
 }

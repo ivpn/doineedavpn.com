@@ -11,7 +11,7 @@
 import { OutcomeTypes } from '@/shared';
 
 export default {
-    name: 'Tag',
+    name: 'TagComponent',
 
     props: {
         title: {

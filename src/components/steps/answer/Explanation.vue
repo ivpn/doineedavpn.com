@@ -15,7 +15,7 @@
 import Tag from '@/components/Tag';
 
 export default {
-    name: 'Explanation',
+    name: 'ExplanationComponent',
 
     components: { Tag },
 

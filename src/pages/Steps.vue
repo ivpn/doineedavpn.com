@@ -16,7 +16,7 @@ import { Steps } from '@/shared';
 import { Sidebar, AnswerStep, SelectionStep, QuestionStep, SharePopup } from '@/components';
 
 export default {
-    name: 'Steps',
+    name: 'StepsComponent',
 
     Steps,
 
@@ -49,11 +49,11 @@ export default {
 
 <style lang="scss" scoped>
 .steps-container {
-  height: 100%;
+    height: 100%;
 
-  @media screen and (max-width: $tablet-portrait) {
-    padding: 0 30px;
-  }
+    @media screen and (max-width: $tablet-portrait) {
+        padding: 0 30px;
+    }
 }
 
 .steps {

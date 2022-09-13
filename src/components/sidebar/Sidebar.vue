@@ -37,7 +37,7 @@ import { ACTION_TYPES } from '@/store';
 import SidebarHeader from './SidebarHeader';
 
 export default {
-    name: 'Sidebar',
+    name: 'SidebarComponent',
 
     components: { SidebarHeader },
 
@@ -78,7 +78,7 @@ export default {
         document.addEventListener('scroll', this.onScroll);
     },
 
-    beforeDestroy() {
+    beforeUnmount() {
         this.onMobileMenuToggle(false);
         document.removeEventListener('scroll', this.onScroll);
     }

@@ -25,7 +25,7 @@
 
 <script>
 export default {
-    name: 'Recommendation',
+    name: 'RecommendationComponent',
 
     props: {
         recommendation: {
