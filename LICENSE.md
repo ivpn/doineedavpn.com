@@ -1,4 +1,4 @@
-Copyright (c) 2021 Privatus Limited.
+Copyright (c) 2023 IVPN Limited.
 
 The doineedavpn.com Web is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.  
 
